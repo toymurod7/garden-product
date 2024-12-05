@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 100%;
+  min-height: 20px;
+  margin: auto;
+}
+
+.nav-con {
+  max-width: 1440px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 40px;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  background: #339933;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-con ul {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #282828;
+}
+
+.sec1 {
+  width: 1440px;
+height: 600px;
+top: 128px;
+gap: 0px;
+opacity: 0px;
+
+  margin: auto;
+  background-image: url(./images/img.jpg);
+}
+
+.sec1-con {
+  max-width: 1440px;
+  height: 100%;
+  margin: auto;
+  padding: 80px 40px;
+}
+
+.sec1-con h1 {
+  font-size: 96px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 105.6px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 56px;
+}
+
+.sec1-con button {
+  width: 218px;
+  height: 58px;
+  padding: 16px 56px 16px 56px;
+  gap: 10px;
+  border-radius: 5px;
+  background: #339933;
+  border: none;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.sec2 {
+  width: 100%;
+  height: 600px;
+  margin: auto;
+}
+
+.sec2-con {
+  max-width: 1440px;
+  height: 100%;
+  margin: auto;
+  padding: 80px 40px;
+}
+
+.text-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-2 h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 70.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #282828;
+}
+
+.text-2 button {
+  width: 142px;
+  height: 36px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 5px;
+  border: 1px solid #dddddd;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.16px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #8b8b8b;
+}
+
+.box2 {
+  margin-top: 40px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.sec3 {
+  width: 100%;
+  margin: auto;
+}
+
+.sec3-con {
+  max-width: 1440px;
+  height: 100%;
+  margin: auto;
+  background: linear-gradient(261.47deg, #0b710b 32.63%, #339933 98.96%);
+  padding: 32px;
+  border-radius: 10px;
+}
+
+.sec3-con h1 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 70.4px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 25px;
+}
+
+.box3 {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.inp3 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.inp3 input {
+  width: 516px;
+  height: 58px;
+  padding: 16px 32px 16px 32px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  outline: none;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fff;
+}
+
+.inp3 button {
+  width: 516px;
+  height: 58px;
+  padding: 16px 32px 16px 32px;
+  border-radius: 10px;
+  background: #ffffff;
+  font-size: 20px;
+  color: #282828;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.sec4 {
+  width: 100%;
+  height: 600px;
+  margin: auto;
+}
+
+.sec4-con {
+  max-width: 1440px;
+  height: 100%;
+  margin: auto;
+  padding: 80px 40px;
+}
+
+.sec5 {
+  width: 100%;
+  height: 600px;
+  margin: auto;
+}
+
+.sec5-con {
+  max-width: 1440px;
+  height: 100%;
+  margin: auto;
+  padding: 80px 40px;
+}
+
+.sec5-con h1 {
+  font-size: 64px;
+  margin-bottom: 40px;
+  font-weight: 700;
+  line-height: 70.4px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #282828;
+}
+
+.sec5-con img {
+  width: 100%;
+  margin-bottom: 32px;
+}
+.sec6{
+  width: Hug (1,360px)px;
+height: Hug (1,062px)px;
+top: 253px;
+left: 30px;
+gap: 40px;
+opacity: 0px;
+
+}
